@@ -6,24 +6,24 @@ public class aray {
 	public static void main(String[] args) {
 		Scanner s = new Scanner (System.in);
 		
-		//Array(¹è¿­)int[] m = new int[5];
+		//Array(ë°°ì—´)int[] m = new int[5];
 		ArrayList<Integer> m =new ArrayList<Integer>();
 		
-		System.out.println("ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì…ë ¥í•˜ì‹œì˜¤");
 		int n = s.nextInt();
 		
 		while(n!=-1) {
-			System.out.println("ÀÔ·ÂÇÏ½Ã¿À");
-			m.add(n); // ArrayList°¡ ÇÏ³ª ´Ã¾î³ª¸é¼­, »õ°ªÀ» Ãß°¡
+			System.out.println("ì…ë ¥í•˜ì‹œì˜¤");
+			m.add(n); // ArrayListê°€ í•˜ë‚˜ ëŠ˜ì–´ë‚˜ë©´ì„œ, ìƒˆê°’ì„ ì¶”ê°€
 			n = s.nextInt();
 		}
 		int i=0;
 		int sum=0;
 //		float pp=0;
 //		while(i<m.length) {
-//			System.out.println("ÀÔ·ÂÇÏ½Ã¿À");
+//			System.out.println("ì…ë ¥í•˜ì‹œì˜¤");
 //			m[i]=s.nextInt();
-//			//Á¡¼öÀÇ ÇÕ°è¸¦ ´©Àû
+//			//ì ìˆ˜ì˜ í•©ê³„ë¥¼ ëˆ„ì 
 //			sum+=(m[i]);
 //			i++;
 //		}
@@ -60,11 +60,11 @@ public class aray {
 			
 		}
 		
-		System.out.println("ÃÑÇÕ "+sum);
-		System.out.println("Æò±ÕÀº "+((float)sum/(m.size())));
+		System.out.println("ì´í•© "+sum);
+		System.out.println("í‰ê· ì€ "+((float)sum/(m.size())));
 		
-		//Æò±ÕÁ¡¼ö °è»ê
-		System.out.println("ÇÁ·Î±×·¥Á¾·á.");
+		//í‰ê· ì ìˆ˜ ê³„ì‚°
+		System.out.println("í”„ë¡œê·¸ë¨ì¢…ë£Œ.");
 	}
 
 }
